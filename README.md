@@ -1,6 +1,6 @@
 ## Instalacja
 
-Przed próbą uruchomienia palikacji nalęży zainstalować Serwer bazodanowy cała aplikacja jest przygotowana i była testowana z XAMPP-em, dlatego zalecam jego installacje.
+Przed próbą uruchomienia alikacji należy zainstalować Serwer bazodanowy cała aplikacja jest przygotowana i była testowana z XAMPP-em, dlatego zalecam jego installacje.
 
 Pobież wszyskie pliki a następnie wpisz komędy w określonej kolejności w terminalu.
 
