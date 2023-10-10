@@ -1,10 +1,32 @@
 ## Instalacja
 
-Pobież wszyskie pliki a następnie wpisz komędy w określonej kolejności w terminalu
+Przed próbą uruchomienia palikacji nalęży zainstalować Serwer bazodanowy cała aplikacja jest przygotowana i była testowana z XAMPP-em, dlatego zalecam jego installacje.
 
-Zainstaluj pliki composer przy pomocy 'composer install'
+Pobież wszyskie pliki a następnie wpisz komędy w określonej kolejności w terminalu.
 
-Podmień przykładowy plik env jako env <code> cp .env.example .env</code>
+Zainstaluj pliki composer przy pomocy.
+<code>composer install</code>
+
+Podmień przykładowy plik env jako env.
+<code>cp .env.example .env</code>
+
+Wygeneruj pliki bazy poprzez migrację.
+<code>php artisan key:generate</code>
+
+Wygeneruj przykłądowe dane i konto administratora
+<code>php artisan db:seed</code>
+
+Wygeneruj pliki js i css
+Projekt był tworzony pod vita a nie webpackmix stąd komenda dla vita
+<code>npm run build</code>
+
+Wystartowanie projektu
+<code>php artisan server</code>
+
+Pod adresem <code>http://localhost:8000/</code> powinien znajdować się nowy projekt
+
+
+
 
 ##
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
