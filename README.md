@@ -2,7 +2,7 @@
 
 Pobież wszyskie pliki a następnie wpisz komędy w określonej kolejności w terminalu
 
-Zainstaluj pliki composer przy pomocy <code> composer install</code>
+Zainstaluj pliki composer przy pomocy 'composer install'
 
 Podmień przykładowy plik env jako env <code> cp .env.example .env</code>
 
