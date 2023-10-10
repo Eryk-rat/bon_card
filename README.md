@@ -1,26 +1,26 @@
 ## Instalacja
 
-Przed próbą uruchomienia alikacji należy zainstalować Serwer bazodanowy cała aplikacja jest przygotowana i była testowana z XAMPP-em, dlatego zalecam jego installacje.
+Przed próbą uruchomienia aplikacji należy zainstalować Serwer bazodanowy. Cała aplikacja jest przygotowana i była testowana z XAMPP-em, dlatego zalecam jego instalacje.
 
-Pobież wszyskie pliki a następnie wpisz komędy w określonej kolejności w terminalu.
+Pobierz wszyskie pliki, a następnie wpisz komendy w określonej kolejności w terminalu.
 
-Zainstaluj pliki composer przy pomocy.
+Zainstaluj pliki composer przy pomocy:
 <code>composer install</code>
 
-Podmień przykładowy plik env jako env.
+Podmień przykładowy plik env jako env:
 <code>cp .env.example .env</code>
 
-Wygeneruj pliki bazy poprzez migrację.
+Wygeneruj pliki bazy poprzez migrację:
 <code>php artisan key:generate</code>
 
-Wygeneruj przykłądowe dane i konto administratora
+Wygeneruj przykładowe dane i konto administratora:
 <code>php artisan db:seed</code>
 
-Wygeneruj pliki js i css
-Projekt był tworzony pod vita a nie webpackmix stąd komenda dla vita
+Wygeneruj pliki js i css.
+Projekt był tworzony pod vita, a nie webpackmix stąd komenda dla vita:
 <code>npm run build</code>
 
-Wystartowanie projektu
+Wystartowanie projektu:
 <code>php artisan server</code>
 
 Pod adresem <code>http://localhost:8000/</code> powinien znajdować się nowy projekt
